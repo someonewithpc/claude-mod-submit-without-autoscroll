@@ -1,15 +1,15 @@
 # submit-without-autoscroll
 
 A Claude Code mod that sends your prompt without scrolling the transcript to
-the bottom.
+the bottom
 
 In fullscreen mode, Enter always yanks the view back to the newest line. That's
 annoying when you scrolled up to read an earlier answer and want to ask about
-it while it's still on screen. With this mod, a chord of your choice (I use
-Ctrl+Enter) sends the draft and leaves the view where it is. Claude's reply
+it while it's still on screen. With this mod, a chord of your choice sends the
+draft and leaves the view where it is. I use Ctrl+Enter. Claude's reply
 still arrives, and the "new messages (ctrl+End)" pill tells you when it has.
 
-If the view is already at the bottom, it follows the reply as usual.
+If the view is already at the bottom, it follows the reply as usual
 
 ## Install
 
@@ -76,10 +76,11 @@ submits the text as a plugin prompt marked as your own words.
 That has a few side effects:
 
 - The transcript labels the message "Prompt from the submit-without-autoscroll
-  plugin". The model reads it as your message, with no plugin framing.
-- Pasted images and `@file` mentions aren't expanded. Use Enter for those.
-- A prompt sent mid-turn waits for the turn to end. Enter would hand it to the
-  running turn.
+  plugin". The model reads it as your message, with no plugin framing
+- Claude Code doesn't expand pasted images or `@file` mentions in a plugin's
+  prompt. Use Enter for those
+- If you send mid-turn, the prompt waits for the turn to end. Enter would hand
+  it to the running turn
 
 ## Development
 

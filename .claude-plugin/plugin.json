@@ -2,7 +2,7 @@
   "name": "submit-without-autoscroll",
   "displayName": "Submit without autoscroll",
   "version": "0.1.0",
-  "description": "Send a prompt with a chord of your own, like Ctrl+Enter, without scrolling the transcript to the bottom.",
+  "description": "Send a prompt with a chord of your own, like Ctrl+Enter, without scrolling the transcript to the bottom",
   "author": { "name": "Hugo Sales" },
   "homepage": "https://github.com/someonewithpc/claude-mod-submit-without-autoscroll",
   "repository": "https://github.com/someonewithpc/claude-mod-submit-without-autoscroll",
@@ -12,7 +12,7 @@
     "action": {
       "type": "string",
       "title": "Keybinding action",
-      "description": "The engine keybinding action your chord is bound to in ~/.claude/keybindings.json. Pick one with no handler at the prompt.",
+      "description": "The engine keybinding action your chord is bound to in ~/.claude/keybindings.json. Pick one with no handler at the prompt",
       "required": false,
       "default": "app:cycleDiffBase"
     }
