@@ -1,0 +1,5 @@
+{
+  "name": "claude-mod-submit-without-autoscroll",
+  "owner": { "name": "Hugo Sales" },
+  "plugins": [{ "name": "submit-without-autoscroll", "source": "./" }]
+}
